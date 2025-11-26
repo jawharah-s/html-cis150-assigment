@@ -1,6 +1,6 @@
 # Tri & Succeed Sports – Coaches Page
 
-Small HTML/CSS assignment from my web design class.
+Small HTML/CSS assignment from my CIS 150 class.
 
 I was given the text, images, and a basic layout file, and I had to build the
 “Meet our Coaches” page and finish the styling.
