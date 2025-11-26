@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 2 – Review Assignment
+
+   Tri and Succeed Sports Style Rules
+   Author: Jawharah Mused
+   Date: 09/16/2024
+
+   Filename: coach_styles.css
+*/
+
+@font-face {
+   font-family: Nobile;
+   src: url(nobile-webfont.woff) format("woff"),
+        url(nobile-webfont.ttf) format("truetype");
+}
+
+/* Page Styling */
+
+body {
+   font-family: Verdana, Arial, sans-serif;
+   background-color: #ffffff;
+   color: #333333;
+}
+
+/* Header */
+
+header {
+   background-color: #1c4f63;
+}
+
+/* Navigation */
+
+nav a {
+   text-decoration: none;
+   font-family: Nobile, Arial, sans-serif;
+   font-size: 1.1em;
+   color: #1c4f63;
+   background-color: #e5f2f6;
+   border-radius: 5px;
+   transition: 0.3s;
+}
+
+nav a:hover {
+   background-color: #1c4f63;
+   color: white;
+}
+
+/* Section Title */
+
+section#tss_coaches h1 {
+   font-family: Nobile, Arial, sans-serif;
+   font-size: 2.2em;
+   color: #1c4f63;
+   margin-bottom: 15px;
+}
+
+/* Blockquote Styling */
+
+aside blockquote {
+   font-family: Georgia, "Times New Roman", serif;
+   font-style: italic;
+   font-size: 1.2em;
+   background-color: #f7f7f7;
+   padding: 20px;
+   border-left: 6px solid #1c4f63;
+   position: relative;
+}
+
+aside blockquote::before {
+   content: "“";
+   font-size: 4em;
+   color: #1c4f63;
+   position: absolute;
+   left: 10px;
+   top: 0px;
+}
+
+aside blockquote::after {
+   content: "”";
+   font-size: 4em;
+   color: #1c4f63;
+   position: absolute;
+   right: 10px;
+   bottom: -20px;
+}
+
+aside cite {
+   display: block;
+   text-align: right;
+   margin-top: 10px;
+   font-style: normal;
+   color: #666666;
+}
+
+/* Coach Bios */
+
+.coach_bio h2 {
+   font-family: Nobile, Arial, sans-serif;
+   color: #1c4f63;
+   margin-bottom: 10px;
+}
+
+.coach_bio ul {
+   list-style-image: url(check.png);
+   margin-left: 25px;
+}
+
+/* Footer */
+
+footer {
+   text-align: center;
+   background-color: #1c4f63;
+   color: white;
+   font-size: 0.9em;
+}
