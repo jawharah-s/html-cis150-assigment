@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 2 – Review Assignment
+
+   Tri and Succeed Sports Layout Styles
+   Author: Jawharah Mused
+   Date: 09/16/2024
+
+   Filename: coach_layout.css
+*/
+
+/* Page Layout */
+
+body {
+   width: 95%;
+   max-width: 1000px;
+   margin: 0 auto;
+   background-color: #f5f5f5;
+}
+
+/* Header */
+
+header img {
+   display: block;
+   width: 100%;
+}
+
+/* Navigation */
+
+nav {
+   width: 200px;
+   float: left;
+   margin: 20px 10px;
+}
+
+nav ul {
+   list-style: none;
+}
+
+nav li {
+   margin-bottom: 10px;
+}
+
+nav a {
+   display: block;
+   padding: 6px;
+}
+
+/* Main Coaches Section */
+
+section#tss_coaches {
+   margin-left: 220px;
+   padding: 20px;
+}
+
+/* Blockquote Area */
+
+aside {
+   float: right;
+   width: 40%;
+   margin: 10px 0 10px 15px;
+}
+
+/* Coach Articles */
+
+.coach_bio {
+   clear: both;
+   margin: 30px 0;
+   overflow: hidden;
+}
+
+.coach_bio img {
+   float: left;
+   width: 200px;
+   margin: 10px 20px 10px 0;
+}
+
+/* Footer */
+
+footer {
+   clear: both;
+   margin-top: 40px;
+   padding: 15px;
+}
